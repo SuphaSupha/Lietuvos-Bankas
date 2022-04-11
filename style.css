@@ -1,25 +1,27 @@
-body * {
-    outline: 1px solid red;
-}
 h1, p, div,section {
     font-family: 'Roboto', sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 .topbar {
     text-align: right;
     padding: 16px 64px;
 }
+
 .topbar a{
     color: gray;
     font-size: 13px;
     font-weight: 300;
     padding: 0px 16px;
 }
+
 .topbar a:last-child{
     border-left: 1px solid gray;
 }
+
 .midbar {
     background-color: rgb(0, 128, 109);
     width: 100%;
@@ -33,6 +35,7 @@ a {
    width: 90%;
    margin: 0 auto;
 }
+
 .midbar-navigation a{
     padding: 0 8px;
     margin: 0;
@@ -40,24 +43,28 @@ a {
     font-size: 14px;
     font-weight: 300;
 }
+
 .midbar-navigation a:last-child{
     border-left: 1px solid grey;
 }
+
 .midbar-navigation img {
     height: 40px;
     margin-top: 12px;
 }
+
 .cards { 
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 85%;
-    margin: 8px auto;
-    
+    margin: 8px auto; 
 }
+
 .cards div{
     margin: 0 16px;
 }
+
 .card1 {
     height: 350px;
     width: 350px;
@@ -65,41 +72,47 @@ a {
     display: flex;
     flex-direction: column;
 }
+
 .card1 h2 {
     height: 100%;
     text-align: center;
     background-color: rgb(3, 136, 118);
     padding-top: 16px;
 }
+
 .card1 img{
     width: 100%;
     transition: transform .5s ease;
 }
+
 .card1 img:hover {
     transform: scale(1.2);
 }
+
 .card1 p {
-    padding-top: 4px;
+    padding-top: 16px;
 }
+
 .sidenav {
-    height: 220px; /* Full-height: remove this if you want "auto" height */
-    width: 41px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 0; /* Stay on top */
-    /* Stay at the top */
+    height: 290px;
+    width: 50px;
+    position: fixed;
+    z-index: 0; 
     right: 0;
-    background-color: rgb(3, 136, 118); /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: rgb(3, 136, 118); 
+    overflow-x: hidden; 
     padding-top: 20px;
   }
-  .sidenav a {
+
+.sidenav a {
     padding: 2px 4px 2px 8px;
     text-decoration: none;
-    font-size: 12px;
-    color: #818181;
+    font-size: 20px;
+    color: #ffffff;
     display: block;
   }
-  .head {
+
+.head {
       display: flex;
       width: 85%;
       margin: 0 auto;
@@ -107,72 +120,157 @@ a {
       padding-top: 64px;
       border-bottom: 1px solid gray;
   }
-  .head a {
+
+.head a {
       padding: 0px 12px;
       color: #818181;
       font-weight: 500;
       font-size: 15px;
   }
-  .cards1 {
+
+.cards1 {
       display: flex;
       justify-content: space-between;
       width: 85%;
       flex-direction: row;
       margin: 16px auto;
   }
-  .card2 {
+
+h4 {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.card2 {
       display: flex;
       flex-direction: column;
   }
-  .card2 a {
+
+.card2 a {
       padding: 12px 12px;
       font-size: 18px;
       color: #262626;
       font-weight: 300;
   }
-  .cards1 .card2:last-child, .cards1 .card2:nth-child(2){
+
+.cards1 .card2:last-child, .cards1 .card2:nth-child(2){
       border-left: 1px solid gray;
   }
-  .card2 a:hover, .head a:hover {
+
+.card2 a:hover, .head a:hover {
       color: rgb(14, 106, 14);
   }
-  .wrapper {
-      background-color:rgb(3, 136, 118); ;
+
+.wrapper {
+      background-color: rgb(2, 73, 64); 
       width: 100%;
       height: 320px;
+      padding: 0px 0px;
   }
-  .wrapper .loan {
+
+.wrapper .loan {
       width: 85%;
       margin: 0px auto;
       padding-top: 4px ;
   }
-  .loan h2 {
+
+.loan h2 {
       color: white;
       font-weight: 300;
   }
-  .investing {
+
+.investing {
       display: flex;
       justify-content: center;
-      box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-              0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-              0px 1px 3px 0px rgba(0, 0, 0, .12);
-  border-radius: 5px;
-  background: rgb(3, 136, 118);
+      border-radius: 5px;
+    background: rgb(2, 73, 64);
   }
-  .investing a {
+
+.investing a {
       padding: 24px 32px;
       margin: 0px 32px;
+      box-shadow: 0 0 11px rgba(33,33,33,.2)
+     
   }
-  .card-inner {
-    border-radius: 5px;
-    background: rgb(3, 136, 118);
-    border: 2px solid #16697A;
+
+.card-inner {
+    
+    background:  rgb(2, 73, 64);
+    border:2px solid  rgb(4, 165, 144);
     padding: 1rem 1rem;
     display: block;
     color: white;
     text-decoration: none;
     transition: transform .07s ease-out;
   }
-  .investing:hover .card-inner {
+
+.investing .card-inner:hover  {
     transform: translate(-10px, -10px);
+    box-shadow: 0 0 11px rgba(33,33,33,.2)
   }
+
+
+.background {
+      background-color: rgb(35, 35, 35);
+  }
+
+.end-nav {
+      width: 85%;
+      margin: 0px auto;
+      padding: 32px ;
+      display: flex;
+      justify-content: space-between;      
+  }
+
+.end-nev { margin: 0px auto;
+    width: 85%;
+    padding: 32px ;
+    display: flex;
+    justify-content: left;
+  }
+
+.end-nev a{
+   margin-right: 150px;
+  }
+
+.end-nev a, .end-nav a {
+      color: white;
+      font-size: 18px;
+  }
+
+.end-nev a:hover, .end-nav a:hover{
+      text-decoration: underline;
+  }
+  
+.footwrap {
+      width: 85%;
+      margin: 0 auto;
+      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+.first, .second {
+    width: 98%;
+    height: 48px;
+}
+
+.first{
+        background-image: url("https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg");
+    }
+
+.second {
+    background-color: rgb(66, 66, 66);
+}
+
+.second:hover{
+    background-color: rgb(2, 73, 64);
+}
+ 
+.footwrap div {
+    width: 90%;
+}
+button{
+    color: #ffffff;
+}
